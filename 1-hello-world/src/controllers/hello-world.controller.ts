@@ -24,6 +24,8 @@ export class HelloWorldController {
 
   @get('/hello')
   hello(@param(helloNameSpec) name: string) {
-    return `Hello ${name}`;
+    return {
+      message: `Hello, ${name}`,
+    };
   }
 }
