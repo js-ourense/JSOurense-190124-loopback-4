@@ -1,0 +1,10 @@
+{
+  "name": "db",
+  "connector": "mongodb",
+  "url": "mongodb://localhost/2-basic-crud",
+  "host": "localhost",
+  "port": 27017,
+  "user": "",
+  "password": "",
+  "database": "2-basic-crud"
+}
